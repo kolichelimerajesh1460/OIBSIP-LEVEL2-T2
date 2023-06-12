@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+.imgage,img{
+    padding-left: 10px;
+    margin-right: 30rem;
+    margin-top: 20px;
+    
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 3rem;
+    width: 50rem;
+    margin-left: 30rem;
+}
+figcaption{
+    position: absolute;
+    top: 8rem;
+    margin-left: 25rem;
+    font-size: 15px;
+    color: black bold;
+}
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid #3c366b !important;
+    color: #3c366b !important;
+    background: none !important;
+    position: absolute;
+    top: 14rem;
+    margin-left: 20rem;
+    width: 10rem;
+}
+.btn-primary:hover{
+    background: #3c366b !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+    
+}
+ #life{
+    padding: 50px ;
+    color: #3c366b;
+    background-color: darkorange;
+    
+ }
+
+ .title1::before{
+    content: '';
+    background: #3c366b;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+ }
+ul{
+    font-weight: 900px ;
+    
+}
+ul li{
+    padding: 1px;
+    font-weight: 900px;
+    color: black ;
+    font-size: 20px;
+}
+#records{
+    color: #3c366b;
+}
+.title2::before{
+    content: '';
+    background: #3c366b;
+    height: 5px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+ }
+#cricket{
+    color: #16097b;
+    background-color: darkgreen;
+}
+.title3::before{
+    content: '';
+    background: #3c366b;
+    height: 5px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+ }
+#rewards{
+    color: #3c366b;
+}
+.title4::before{
+    content: '';
+    background: #3c366b;
+    height: 5px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+ }
